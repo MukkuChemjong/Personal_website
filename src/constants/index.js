@@ -11,6 +11,8 @@ import {
   ecommerce,
   Antin,
   java,
+  python,
+  language,
 } from "../assets";
 
 export const navLinks = [
@@ -31,31 +33,46 @@ export const navLinks = [
 export const services = [];
 
 export const technologies = [
+  {name: 'python', icon: python},
+  { name: "Java", icon: java },
+  { name: "React JS", icon: reactjs },
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
-  { name: "React JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
   { name: "git", icon: git },
-  { name: "Java", icon: java },
 ];
 
 export const experiences = [
   {
-    title: "Junior Trade Execution Specialist",
+    title: "Investment Intern",
     company_name: "Antin Infrastructure Partners",
     icon: Antin,
     iconBg: "#161329",
     date: "Jun 2024 - Jul 2024",
     points: [
-      "Bought and sold foreign currencies to exploit fluctuations in the market to increase profit.",
-      " Analyzed and managed currency markets to enter data on various financial spread sheets ",
+    "Managed and coordinated client requests weekly, ensuring timely resolution and maintaining a 95% satisfaction rate through efficient communication and problem-solving.",
+    "Analyzed daily currency market trends and reports, identifying profitable trading opportunities that contributed to an increase in revenue"
     ],
   },
 ];
 
 export const projects = [
+  {
+    name: "Limbu Language Learning Website",
+    description:
+      "Lesson based language learning website that teach Limbu, an Indigenous language based in Nepal",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Html", color: "pink-text-gradient" },
+      { name: "Css", color: "pink-text-gradient" },
+      { name: "Js", color: "pink-text-gradient" },
+    ],
+    image: language,
+    source_code_link: "https://github.com/MukkuChemjong/Language-app",
+  },
   {
     name: "Ecommerce Website",
     description:

@@ -9,6 +9,7 @@ import java from "./tech-stack/java.png";
 import weatherpedia from './projects/WeatherSS.jpg';
 import tosql from './projects/SQLSS.jpg';
 import ecommerce from './projects/E-commerceSS.jpg'
+import language from './projects/language.jpg'
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -19,6 +20,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
+import python from "./tech-stack/python.png"
 
 // Import common assets
 import logo from "./logo.svg";
@@ -44,5 +46,7 @@ export {
   logo,
   menu,
   close,
-  Antin
+  Antin,
+  python,
+  language,
 };

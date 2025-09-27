@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Web Developer that has worked with React and Node for 4 years
-        where I have built fast, scalable and user-friendly web applications. I
+        I am a computer science student that has experience using Python, Java Html, Css, Js to
+        build fast, scalable and user-friendly applications. I
         like solving problems, learning new things and experimenting with new
         technologies. When I am not coding, I am working on a new project or
         exploring something new.
