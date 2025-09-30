@@ -85,7 +85,7 @@ export const projects = [
       { name: "Cloudinary Api", color: "pink-text-gradient" },
     ],
     image: ecommerce,
-    source_code_link: "https://github.com/MukkuChemjong/FinalE-commerce",
+    source_code_link: "https://github.com/MukkuChemjong/e-commerce",
   },
   {
     name: "WeatherPedia",
